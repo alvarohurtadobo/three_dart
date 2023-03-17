@@ -406,7 +406,7 @@ class ExtrudeGeometry extends BufferGeometry {
             f3(face[2] + offset, face[1] + offset, face[0] + offset);
           }
 
-          layer = steps + bevelSegments * 2;
+          layer = steps + (bevelSegments * 2).toInt();
           offset = vlen * layer;
 
           // Top faces

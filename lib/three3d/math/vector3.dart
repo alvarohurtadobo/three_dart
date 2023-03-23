@@ -626,4 +626,9 @@ class Vector3 {
   List<num> toJSON() {
     return [x, y, z];
   }
+
+  @override
+  String toString(){
+    return "<$x, $y, $z>";
+  }
 }

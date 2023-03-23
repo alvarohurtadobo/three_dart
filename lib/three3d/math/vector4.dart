@@ -553,4 +553,9 @@ class Vector4 {
   Map<String, dynamic> toJson() {
     return {'x': x, 'y': y, 'z': z, 'w': w};
   }
+
+  @override
+  String toString(){
+    return "<$x, $y, $z, $w>";
+  }
 }

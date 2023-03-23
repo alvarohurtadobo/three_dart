@@ -373,4 +373,9 @@ class Vector2 {
   Map<String, double> toJson() {
     return {'x': x, 'y': y};
   }
+
+  @override
+  String toString(){
+    return "<$x, $y>";
+  }
 }

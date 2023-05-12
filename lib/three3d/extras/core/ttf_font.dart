@@ -80,8 +80,8 @@ class TTFFont extends Font {
         outline = glyph["_cachedOutline"];
       }
 
-      print(" outline scale: $scale ");
-      print(outline);
+      // print(" outline scale: $scale ");
+      // print(outline);
 
       for (int i = 0, l = outline.length; i < l;) {
         var action = outline[i];

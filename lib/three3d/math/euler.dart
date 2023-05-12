@@ -15,6 +15,11 @@ class Euler {
   late double _z;
   late String _order;
 
+  @override
+  String toString(){
+    return "<$_x, $_y, $_z>";
+  }
+
   Function onChangeCallback = () {};
 
   Euler([double? x, double? y, double? z, String? order]) {
